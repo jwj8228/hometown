@@ -1,0 +1,79 @@
+#header {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 65px;
+	background-color: white;
+	box-shadow: 0 2px 5px #ccc
+}
+
+#header .h-main {
+	box-sizing: border-box;
+	width: 1200px;
+	height: 100%;
+	padding-top: 14px;
+	margin: 0 auto;
+}
+
+.h-main a {
+	font-size: 14px;
+	color: #000;
+}
+
+.h-main a:hover {
+	color: #A7C31E;
+}
+
+.h-main h1 {
+	position: relative;
+	float: left;
+	width: 132px;
+	height: 37px;
+	color: #e9e8ee;
+}
+
+.h-main h1 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 132px;
+	height: 37px;
+}
+
+.h-main .navbar {
+	display: none;
+	float: right;
+	height: 100%;
+}
+
+.h-main .navbar.nav-list1 {
+	display: block;
+}
+
+.h-main .navbar>li {
+	float: left;
+	width: 100px;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+}
+
+.h-main .navbar li.active a {
+	color: #A7C31E;
+}
+
+.h-main .nav-list2 .more {
+	user-select: none;
+	cursor: pointer;
+}
+
+.h-main .nav-list2 .more .nav-second {
+	display: none;
+	width: 100px;
+	height: 165px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	background-color: #fff;
+}

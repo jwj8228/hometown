@@ -1,0 +1,231 @@
+/*内容部分*/
+#content{
+	width: 100%;
+	margin-top: 70px;
+}
+/*展示一*/
+#content .presentation1{
+	position: relative;
+	width: 100%;
+	background: url("../img/campus/bg1.jpg") center/cover no-repeat;
+}
+.presentation1 .title{
+	position: absolute;
+	width: 260px;
+	top: 50%;
+	left: 30%;
+	color:#fff;
+	transform: translate(0 -50%);
+}
+.presentation1 .title h2{
+	font-size: 34px;
+}
+.presentation1 .title p{
+	font-size: 18px;
+	text-align: right;
+}
+.presentation1 .tagline{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+	background-color: rgba(225,225,225,.5);
+}
+#content .presentation1 .tagline i.btn{
+	display: block;
+	position: absolute;
+    left: 50%;
+    top: 0;
+    width: 46px;
+    height: 46px;
+    background: url(../img/campus/a_d.png);
+    margin-left: -23px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+.presentation1 .tagline p{
+	display: inline-block;
+	font-size: 18px;
+}
+/*背景*/
+#content .bg{
+	width: 100%;
+    height: 430px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#content .bg1{
+	background-image: url("../img/campus/bg2.jpg");
+}
+#content .bg2{
+	background-image: url("../img/campus/bg3.jpg");
+}
+#content .bg3{
+	background-image: url("../img/campus/bg4.jpg");
+}
+#content .bg4{
+	background-image: url("../img/campus/bg5.jpg");
+}
+#content .bg5{
+	background-image: url("../img/campus/bg6.jpg");
+}
+/*展示二*/
+#content .presentation2{
+	position: relative;
+	width: 100%;
+	height: 530px;
+	background-color: #f0f2f5;
+}
+.presentation2 .main{
+	position: relative;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.presentation2 .main .left{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 300px;
+	height: 110px;
+	color: #0080BA;
+	margin-top: -75px;
+}
+#content .subtitle{
+	font-size: 34PX;
+}
+#content .slogan{
+	font-size: 18px;
+	line-height: 26px;
+}
+.presentation2 .main .right{
+	position: absolute;
+	right: 0;
+	width: 530px;
+	height: 530px;
+	text-align: center;
+}
+.presentation2 .main .right img{
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%) rotate(0deg);
+}
+.presentation2 .main .right img:first-child{
+	left: 0;
+}
+.presentation2 .main .right img:last-child{
+	left: 30px;
+	
+	animation: spin 25s linear infinite;
+}
+@keyframes spin{
+	form{transform: translate(0,-50%) rotate(0deg);}
+	to{transform: translate(0,-50%) rotate(360deg);}
+}
+#content .btn{
+	display: block;
+	position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 46px;
+    height: 46px;
+    background: url(../img/campus/a_d.png);
+    margin-left: -23px;
+    margin-bottom: -23px;
+    cursor: pointer;
+}
+/*展示三*/
+#content .presentation3{
+	position: relative;
+	height: 530px;
+	background-color: #f0f2f5;
+}
+.presentation3 .main{
+	position: relative;
+	box-sizing: border-box;
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	padding-top: 100px;
+}
+.presentation3 ul,.presentation3 .title{
+	float: left;
+}
+.presentation3 .view{
+	width: 324px;
+	height: 324px;
+}
+.presentation3 .view li{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/campus/m5.png");
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.presentation3 .view li.on{
+	display: block ;
+}
+.presentation3 .view li:nth-child(1){
+	background-position: 0 0;
+}
+.presentation3 .view li:nth-child(2){
+	background-position: 0 -100%;
+}
+.presentation3 .view li:nth-child(3){
+	background-position: 0 -200%;
+}
+.presentation3 .view li:nth-child(4){
+	background-position: 0 -300%;
+}
+.presentation3 .view li:nth-child(5){
+	background-position: 0 -400%;
+}
+.presentation3 .view li:nth-child(6){
+	background-position: 0 -500%;
+}
+.presentation3 .view li:nth-child(7){
+	background-position: 0 -600%;
+}
+.presentation3 .view li:nth-child(8){
+	background-position: 0 -700%;
+}
+.presentation3 .view li:nth-child(9){
+	background-position: 0 -800%;
+}
+.presentation3 .item{
+	width: 160px;
+	height: 333px;
+	margin-left: 100px;
+}
+.presentation3 .item li{
+	list-style: disc;
+	font-size: 24px;
+	color: #b6d230;
+	line-height: 37px;
+	cursor: pointer;
+}
+.presentation3 .item li.on span{
+	font-size: 28px;
+}
+.presentation3 .item li span{
+	font-size: 20px;
+	color: #0080BA;
+	transition: .2s;
+}
+.presentation3 .title{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+	color: #0080BA;
+}
+#content .hid{
+	overflow: hidden;
+}

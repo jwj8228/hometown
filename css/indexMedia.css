@@ -1,0 +1,348 @@
+/*PC端1200-1500*/
+@media all and (max-width: 1500px) and (min-width: 1200px) {
+
+	/*内容部分*/
+	/*轮播部分*/
+	#content .banner {
+		height: 500px;
+	}
+
+	.banner li:nth-child(1) .text,
+	.banner li:nth-child(2) .text {
+		top: 300px;
+	}
+
+	.banner li:nth-child(1) div:nth-child(2) {
+		width: 640px;
+		height: 440px;
+	}
+
+	.banner li:nth-child(2) div:nth-child(2) {
+		width: 635px;
+		height: 444px;
+		right: 100px;
+		bottom: 20px;
+	}
+
+	.banner li:nth-child(3) .text {
+		top: 125px;
+	}
+
+	.banner li:nth-child(3) div:nth-child(2) {
+		width: 640px;
+		height: 490px;
+		left: 45px;
+		top: 0;
+	}
+
+	/*经典案例*/
+	#content .case {
+		height: 790px;
+	}
+
+	.case .case-banner {
+		height: 475px;
+	}
+
+	.case .case-banner li {
+		width: 192px;
+		height: 317px;
+	}
+
+	.case .case-banner li.mid {
+		width: 288px;
+		height: 475px;
+	}
+
+	.case .case-banner li.slide {
+		width: 240px;
+		height: 396px;
+	}
+}
+
+/*中型设备900-1200*/
+@media all and (max-width: 1200px) and (min-width: 900px) {
+
+	/*内容部分*/
+	/*轮播部分*/
+	#content .banner {
+		height: 450px;
+	}
+
+	.banner li:nth-child(1) .text {
+		top: 288px;
+		left: 55px;
+	}
+
+	.banner li:nth-child(1) div:nth-child(2) {
+		width: 500px;
+		height: 350px;
+		right: 40px;
+	}
+
+	.banner li:nth-child(2) .text {
+		top: 200px;
+		left: 50px;
+	}
+
+	.banner li:nth-child(2) div:nth-child(2) {
+		bottom: 50px;
+		right: 50px;
+		width: 544px;
+		height: 384px;
+	}
+
+	.banner li:nth-child(3) .text {
+		top: 100px;
+		right: 100px;
+	}
+
+	.banner li:nth-child(3) div:nth-child(2) {
+		top: 20px;
+		left: 30px;
+		width: 500px;
+		height: 390px;
+	}
+
+	/*经典案例*/
+	#content .case {
+		height: 740px;
+	}
+
+	.case .case-banner {
+		height: 354px;
+	}
+
+	.case .case-banner li {
+		width: 144px;
+		height: 236px;
+	}
+
+	.case .case-banner li.mid {
+		width: 216px;
+		height: 354px;
+	}
+
+	.case .case-banner li.slide {
+		width: 180px;
+		height: 295px;
+	}
+}
+
+/*小于900*/
+@media all and (max-width: 900px) {
+
+	/*轮播部分*/
+	.banner li:nth-child(1) .text {
+		left: 50%;
+		top: 255px;
+		width: 200px;
+		height: 80px;
+		margin-left: -100px;
+	}
+
+	.banner li:nth-child(1) div:nth-child(2) {
+		left: 50%;
+		top: 8px;
+		width: 330px;
+		height: 240px;
+		margin-left: -165px;
+	}
+
+	.banner li .text img {
+		width: 200px;
+	}
+
+	.banner li:nth-child(2) .text,
+	.banner li:nth-child(3) .text {
+		width: 200px;
+		height: 100px;
+	}
+
+	/*经典案例*/
+	#content .case {
+		height: 690px;
+		min-width: 350px;
+	}
+
+	/*研发伙伴*/
+	.partner .brand {
+		width: 85%;
+		min-width: 350px;
+		margin: 0 auto;
+	}
+
+	.partner .brand li {
+		float: none;
+		margin: 50px auto;
+	}
+
+	/*尾部*/
+	#footer {
+		height: 121px;
+		min-width: 350px;
+	}
+
+	#footer ul {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+/*平板端:600-900*/
+@media all and (max-width: 900px) and (min-width: 600px) {
+
+	/*内容部分*/
+	/*轮播播放*/
+	#content .banner {
+		height: 350px;
+	}
+
+	.banner li:nth-child(2) .text,
+	.banner li:nth-child(3) .text {
+		width: 200px;
+		height: 100px;
+	}
+
+	.banner li:nth-child(2) .text {
+		top: 200px;
+		left: 30px;
+	}
+
+	.banner li:nth-child(2) div:nth-child(2) {
+		bottom: 36px;
+		right: 10px;
+		width: 370px;
+		height: 270px;
+	}
+
+	.banner li:nth-child(3) .text {
+		top: 100px;
+		right: 50px;
+	}
+
+	.banner li:nth-child(3) div:nth-child(2) {
+		top: 50px;
+		left: 20px;
+		width: 350px;
+		height: 270px;
+	}
+
+	/*经典案例*/
+	.case .case-banner {
+		height: 354px;
+	}
+
+	.case .case-banner li {
+		width: 144px;
+		height: 236px;
+	}
+
+	.case .case-banner li.mid {
+		width: 216px;
+		height: 354px;
+	}
+
+	.case .case-banner li.slide {
+		width: 180px;
+		height: 295px;
+	}
+
+	/*尾部*/
+
+	#footer ul li {
+		display: block;
+		line-height: 35px;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+/*手机端:小于600*/
+@media all and (max-width: 600px) {
+
+	/*内容部分*/
+	/*轮播部分*/
+	#content .banner {
+		height: 400px;
+		min-width: 350px;
+	}
+
+	.banner li:nth-child(1) .text {
+		top: 285px;
+	}
+
+	.banner li:nth-child(2) .text {
+		top: 270px;
+		left: 50%;
+		margin-left: -100px;
+	}
+
+	.banner li:nth-child(2) div:nth-child(2) {
+		top: 10px;
+		left: 50%;
+		width: 300px;
+		height: 207px;
+		margin-left: -150px;
+	}
+
+	.banner li:nth-child(3) .text {
+		top: 285px;
+		left: 50%;
+		margin-left: -100px;
+	}
+
+	.banner li:nth-child(3) div:nth-child(2) {
+		top: 0;
+		left: 50%;
+		width: 300px;
+		height: 233px;
+		margin-left: -150px;
+	}
+
+	/*经典案例*/
+	.case .c-title,
+	.partner .p-title {
+		width: 350px;
+		background-position: bottom center;
+	}
+
+	.case .case-banner {
+		width: 198px;
+		height: 327px;
+	}
+
+	.case .case-banner li,
+	.case .case-banner li.mid,
+	.case .case-banner li.slide {
+		width: 198px;
+		height: 327px;
+	}
+
+	/*研发伙伴*/
+	.partner .brand li:first-child {
+		width: 36.3%;
+	}
+
+	.partner .brand li:nth-child(2) {
+		width: 20%;
+	}
+
+	.partner .brand li:last-child {
+		width: 35.5%;
+	}
+
+	.partner .brand li img {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*尾部*/
+	#footer ul li {
+		display: block;
+		font-size: 12px;
+		line-height: 35px;
+		width: 100%;
+		margin: 0;
+	}
+}

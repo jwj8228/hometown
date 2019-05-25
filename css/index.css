@@ -1,0 +1,208 @@
+/*内容部分*/
+#content {
+	width: 100%;
+	margin-top: 70px;
+}
+
+/*轮播*/
+
+.main {
+	width: 100%;
+	height: 457px;
+	/* border: 1px solid #e1e1e1; */
+	margin: 70px auto;
+}
+
+.box {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.box .bg {
+	width: 600%;
+	height: 500px;
+	list-style: none;
+	position: absolute;
+	left: 0;
+	transition: all 1s;
+}
+
+.box .bg li img {
+	width: 1518px;
+	height: 500px;
+}
+
+.bg li {
+	float: left;
+}
+
+.main span {
+	width: 52px;
+	height: 52px;
+	display: inline-block;
+	position: absolute;
+	background: url(../images/arr.png) no-repeat;
+	top: 50%;
+	margin-top: -26px;
+}
+
+.main .left {
+	left: 20px;
+
+}
+
+.main .right {
+	background-position: -52px 0;
+	right: 20px;
+}
+
+.but {
+	width: 100%;
+	height: 13px;
+	list-style: none;
+	text-align: center;
+}
+
+.but li {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	background: url(../images/00.png) no-repeat;
+	margin: 10px 10px;
+}
+
+.but .active {
+	background-position: 0 -26px;
+}
+
+/*名师风采*/
+#content .case {
+	position: relative;
+	width: 100%;
+	height: 920px;
+	background: url("../img/index/bg.png") center/cover no-repeat;
+}
+
+.case .c-title,
+.partner .p-title {
+	width: 520px;
+	height: 90px;
+	margin: 0 auto;
+	padding-top: 30px;
+	background: url(../img/index/line.png) no-repeat left bottom;
+}
+
+.case .c-title img,
+.partner .p-title img {
+	display: block;
+	width: 235px;
+	height: 15px;
+	margin: 0 auto;
+}
+
+.case .c-title p,
+.partner .p-title p {
+	margin-top: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.case .case-banner {
+	position: relative;
+	width: 85%;
+	height: 593px;
+	margin: 80px auto 0;
+	overflow: hidden;
+}
+
+.case .case-banner ul {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 1000%;
+	opacity: 0;
+}
+
+.case .case-banner li {
+	position: relative;
+	float: left;
+	top: 50%;
+	width: 240px;
+	height: 395px;
+	transform: translate(0, -50%);
+	transition: .3s;
+}
+
+.case .case-banner li img {
+	width: 100%;
+	height: 100%;
+}
+
+.case .case-banner li.mid {
+	width: 360px;
+	height: 593px;
+}
+
+.case .case-banner li.slide {
+	width: 300px;
+	height: 494px;
+}
+
+.case .btn {
+	position: absolute;
+	top: 50%;
+	width: 48px;
+	height: 48px;
+	transform: translate(0, -50%);
+	cursor: pointer;
+}
+
+.case .btn.left {
+	left: 50px;
+}
+
+.case .btn.right {
+	right: 50px;
+}
+
+/*合作院校*/
+#content .partner {
+	height: 540px;
+}
+
+.partner .brand {
+	width: 795px;
+	margin: 150px auto;
+}
+
+.partner .brand li {
+	float: left;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+}
+
+/*尾部*/
+#footer {
+	width: 90%;
+	height: 60px;
+	margin: auto;
+	font-size: 16px;
+	color: #ccc;
+	border-top: 1px solid #ccc;
+}
+
+#footer ul {
+	text-align: center;
+}
+
+#footer ul li {
+	display: inline-block;
+	/*height: 100%;*/
+	text-align: center;
+	line-height: 60px;
+	margin: 0 30px;
+}

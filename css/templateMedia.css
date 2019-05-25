@@ -1,0 +1,100 @@
+/*1500-1200*/
+@media all and (max-width: 1500px) and (min-width: 1200px) {}
+
+/*1200-900*/
+@media all and (max-width: 1200px) and (min-width: 900px) {
+
+	/*头部*/
+	#header .h-main {
+		width: 800px;
+	}
+}
+
+/*小于900*/
+@media all and (max-width: 900px) {
+
+	/*头部*/
+	#header {
+		height: 100px;
+		background-color: #fff;
+	}
+
+	#header .h-main {
+		width: 100%;
+	}
+
+	#header .h-main h1 {
+		float: none;
+		color: #fff;
+		margin: 0 auto;
+	}
+
+	#header .h-main .navbar {
+		float: none;
+	}
+
+	#header .h-main .navbar.nav-list1 {
+		display: none;
+	}
+
+	#header .h-main .navbar.nav-list2 {
+		display: block;
+		width: 90%;
+		height: 39px;
+		margin: 5px auto;
+	}
+
+	.h-main .navbar.nav-list2 li.more img {
+		width: 13px;
+		height: 13px;
+	}
+
+	/*内容*/
+	/*内容部分*/
+	#content {
+		margin-top: 105px;
+	}
+}
+
+/*900-600*/
+@media all and (max-width: 900px) and (min-width: 600px) {
+
+	/*头部*/
+	#header .h-main .navbar {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#header .h-main .navbar.nav-list1 {
+		display: none;
+	}
+
+	#header .h-main .navbar.nav-list2 {
+		display: block;
+		width: 90%;
+		height: 39px;
+		margin: 5px auto;
+	}
+
+	.h-main .navbar.nav-list2>li {
+		width: 25%;
+	}
+
+	.h-main .navbar.nav-list2 li.more img {
+		width: 13px;
+		height: 13px;
+	}
+}
+
+/*小于600*/
+@media all and (max-width: 600px) {
+
+	/*头部*/
+	#header {
+		min-width: 450px;
+	}
+
+	#header .h-main {
+		min-width: 450px;
+	}
+}
