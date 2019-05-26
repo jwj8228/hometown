@@ -5,76 +5,73 @@
 }
 
 /*轮播*/
-
-.main {
-	width: 100%;
-	height: 457px;
-	/* border: 1px solid #e1e1e1; */
-	margin: 70px auto;
-}
-
-.box {
-	width: 100%;
-	height: 500px;
+#content .banner {
 	position: relative;
-	overflow: hidden;
-}
-
-.box .bg {
-	width: 600%;
-	height: 500px;
-	list-style: none;
-	position: absolute;
-	left: 0;
-	transition: all 1s;
-}
-
-.box .bg li img {
-	width: 1518px;
-	height: 500px;
-}
-
-.bg li {
-	float: left;
-}
-
-.main span {
-	width: 52px;
-	height: 52px;
-	display: inline-block;
-	position: absolute;
-	background: url(../images/arr.png) no-repeat;
-	top: 50%;
-	margin-top: -26px;
-}
-
-.main .left {
-	left: 20px;
-
-}
-
-.main .right {
-	background-position: -52px 0;
-	right: 20px;
-}
-
-.but {
 	width: 100%;
-	height: 13px;
-	list-style: none;
-	text-align: center;
+	height: 850px;
 }
 
-.but li {
-	width: 13px;
-	height: 13px;
+.banner ul {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.banner ul li {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.banner ul li a {
+	width: 100%;
+	height: 100%;
+}
+
+.banner ul li div {
+	position: absolute;
+}
+
+.banner ul li:nth-child(1) {
+	background: url("../images/bg2.jpg") center center no-repeat;
+	background-size: contain;
+}
+
+.banner ul li:nth-child(2) {
+	background: url("../images/bg1.jpg") center no-repeat;
+	background-size: contain;
+}
+
+.banner ul li:nth-child(3) {
+	background: url("../images/bg3.jpg") center no-repeat;
+	background-size: contain;
+}
+
+.banner .tab {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	width: 80px;
+	margin-left: -40px;
+}
+
+.banner .tab span {
 	display: inline-block;
-	background: url(../images/00.png) no-repeat;
-	margin: 10px 10px;
+	width: 6px;
+	height: 6px;
+	margin-right: 8px;
+	border-radius: 100%;
+	border: 2px solid #006597;
+	background-color: #006597;
+	cursor: pointer;
 }
 
-.but .active {
-	background-position: 0 -26px;
+.banner .tab span.on {
+	border: 2px solid purple;
+	background-color: transparent;
 }
 
 /*名师风采*/
