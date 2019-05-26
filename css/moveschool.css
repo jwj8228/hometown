@@ -144,10 +144,10 @@
 .presentation2 .main .right img:last-child {
 	left: 30px;
 
-	animation: spin 25s linear infinite;
+	animation: rotate 25s linear infinite;
 }
 
-@keyframes spin {
+@keyframes rotate {
 	form {
 		transform: translate(0, -50%) rotate(0deg);
 	}
