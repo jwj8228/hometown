@@ -13,7 +13,7 @@
 
 .presentation1 .title {
 	position: absolute;
-	width: 260px;
+	width: 400px;
 	top: 50%;
 	left: 30%;
 	color: #fff;
@@ -21,7 +21,7 @@
 }
 
 .presentation1 .title h2 {
-	font-size: 25px;
+	font-size: 38px;
 }
 
 .presentation1 .title p {
