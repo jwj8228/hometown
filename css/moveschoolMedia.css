@@ -1,39 +1,48 @@
 /*1500-1200*/
-@media all and (max-width: 1500px) and (min-width: 1200px){
+@media all and (max-width: 1500px) and (min-width: 1200px) {
 	/*展示1*/
 
 }
+
 /*1200-900*/
-@media all and (max-width: 1200px) and (min-width: 900px){
+@media all and (max-width: 1200px) and (min-width: 900px) {
+
 	/*展示3*/
-	.presentation3 .main{
+	.presentation3 .main {
 		width: 825px;
 	}
 }
+
 /*小于900*/
-@media all and (max-width: 900px){
+@media all and (max-width: 900px) {
+
 	/*展示1*/
-	.presentation1 .title{
+	.presentation1 .title {
 		top: 10%;
 		left: 15%;
 		width: 200px;
 	}
-	.presentation1 .tagline{
+
+	.presentation1 .tagline {
 		height: 50px;
 		line-height: 50px;
 	}
-	#content .btn{
+
+	#content .btn {
 		display: none;
 	}
-	.presentation1 .tagline p{
+
+	.presentation1 .tagline p {
 		font-size: 12px;
 	}
+
 	/*展示2*/
-	.presentation2 .main{
+	.presentation2 .main {
 		width: 100%;
 		height: 100%;
 	}
-	.presentation2 .main .left{
+
+	.presentation2 .main .left {
 		position: relative;
 		padding-top: 20px;
 		top: 0;
@@ -41,19 +50,22 @@
 		margin: 0 auto;
 		text-align: center;
 	}
-	.presentation2 .main .right{
+
+	.presentation2 .main .right {
 		position: relative;
-		top: 0;
-		left: 0;
+		top: 18%;
+		left: 9%;
 		width: 400px;
 		height: 343px;
 		margin: 0 auto;
 	}
+
 	/*展示3*/
-	.presentation3 .main{
+	.presentation3 .main {
 		min-width: 350px;
 	}
-	.presentation3 .main .title{
+
+	.presentation3 .main .title {
 		top: 20px;
 		left: 0;
 		width: 100%;
@@ -62,107 +74,141 @@
 		float: none;
 	}
 }
+
 /*900-600*/
-@media all and (max-width: 900px) and (min-width: 600px){
+@media all and (max-width: 900px) and (min-width: 600px) {
+
 	/*展示1*/
-	.presentation1 .title h2{
+	.presentation1 .title h2 {
 		font-size: 30px;
 	}
-	.presentation1 .title p{
+
+	.presentation1 .title p {
 		font-size: 16px;
 	}
+
 	/*展示2*/
-	
-	.presentation2 .main .right img:first-child{
-		width: 400px;
-    	height: 265px;
+
+	.presentation2 .main .right img:first-child {
+		width: 277px;
+		height: 188px;
 	}
-	.presentation2 .main .right img:last-child{
-		width: 350px;
-   		height: 327px;
+
+	.presentation2 .main .right img:last-child {
+		width: 250px;
+		height: 237px;
+		left: 13px;
 	}
+
 	/*展示3*/
-	.presentation3 .main{
+	.presentation3 .main {
 		width: 625px;
 		margin: 0 auto;
 	}
-	.presentation3 .main .view{
+
+	.presentation3 .main .view {
 		margin: 50px 20px;
 	}
-	.presentation3 .main .item{
+
+	.presentation3 .main .item {
 		margin: 50px 0 0 100px;
 	}
+
 	/*背景*/
-	#content .bg{
+	#content .bg {
 		height: 300px;
 		background-attachment: scroll;
 	}
 }
+
 /*小于600*/
-@media all and (max-width: 600px){
+@media all and (max-width: 600px) {
 	/*展示1*/
 
-	.presentation1 .title h2{
+	.presentation1 .title h2 {
 		font-size: 24px;
 	}
-	.presentation1 .title p{
+
+	.presentation1 .title p {
 		font-size: 12px;
 	}
+
 	/*展示2*/
-	.presentation2 .main .left h4{
+	.presentation2 .main .left h4 {
 		font-size: 24px;
 	}
-	.presentation2 .main .left p{
+
+	.presentation2 .main .left p {
 		font-size: 14px;
 	}
-	.presentation2 .main .right{
+
+	.presentation2 .main .right img:last-child {
+		left: 18px;
+		animation: rotate 25s linear infinite;
+	}
+
+	.presentation2 .main .right {
 		width: 300px;
 		height: 270px;
+		position: relative;
+		top: 24%;
+		left: 0%;
 	}
-	.presentation2 .main .right img:first-child{
+
+	.presentation2 .main .right img:first-child {
 		width: 300px;
-    	height: 200px;
+		height: 200px;
 	}
-	.presentation2 .main .right img:last-child{
+
+	.presentation2 .main .right img:last-child {
 		width: 270px;
-   		height: 253px;
-   		left: 13px;
+		height: 253px;
+		left: 13px;
 	}
+
 	/*展示3*/
-	#content .presentation3{
+	#content .presentation3 {
 		height: 650px;
 	}
-	.presentation3 .main{
+
+	.presentation3 .main {
 		width: 100%;
 		margin: 0 auto;
 	}
-	.presentation3 .main .view{
+
+	.presentation3 .main .view {
 		float: none;
 		width: 280px;
 		height: 280px;
 		margin: 50px auto 0;
 	}
-	.presentation3 .main .item{
+
+	.presentation3 .main .item {
 		float: none;
 		width: 305px;
 		height: 125px;
 		margin: 50px auto 0;
 	}
-	.presentation3 .main .item li{
+
+	.presentation3 .main .item li {
 		float: left;
 		margin-left: 35px;
 	}
-	.presentation3 .main .item li span{
+
+	.presentation3 .main .item li span {
 		font-size: 16px;
 	}
-	#content .presentation3 .title .subtitle{
+
+	#content .presentation3 .title .subtitle {
 		font-size: 24px;
 	}
-	#content .presentation3 .title .slogan{
+
+	#content .presentation3 .title .slogan {
 		font-size: 14px;
 	}
+
 	/*背景*/
-	#content .bg{
+	#content .bg {
 		height: 300px;
 		min-width: 350px;
 		background-attachment: scroll;

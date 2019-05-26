@@ -142,8 +142,7 @@
 }
 
 .presentation2 .main .right img:last-child {
-	left: 30px;
-
+	left: 32px;
 	animation: rotate 25s linear infinite;
 }
 
