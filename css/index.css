@@ -36,17 +36,17 @@
 }
 
 .banner ul li:nth-child(1) {
-	background: url("../img/images/bg2.jpg") center center no-repeat;
+	background: url("../img/lunbo/bg2.jpg") center center no-repeat;
 	background-size: contain;
 }
 
 .banner ul li:nth-child(2) {
-	background: url("../img/images/bg1.jpg") center no-repeat;
+	background: url("../img/lunbo/bg1.jpg") center no-repeat;
 	background-size: contain;
 }
 
 .banner ul li:nth-child(3) {
-	background: url("../img/images/bg3.jpg") center no-repeat;
+	background: url("../img/lunbo/bg3.jpg") center no-repeat;
 	background-size: contain;
 }
 
