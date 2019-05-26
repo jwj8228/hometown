@@ -22,7 +22,7 @@
 	var len = itemLi.length;
 	var index = 0;
 	var timer = null;
-	// 鼠标悬浮到tab区域时清除定时器
+	// 鼠标悬浮到内容区域或每一个li时清除定时器
 	item.hover(function () {
 		clearInterval(timer);
 	}, autoPlay);
