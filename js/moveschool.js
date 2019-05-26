@@ -1,9 +1,11 @@
 // 展示一
 (function () {
-	gainHeight();
+
 	$(window).resize(function () {
 		gainHeight();
 	})
+	// 视差效果，获取卷入高度
+	gainHeight();
 
 	function gainHeight() {
 		var windH = $(window).height(),
@@ -13,20 +15,21 @@
 }());
 //展示三
 (function () {
-	view = $("#content .presentation3").find(".view"),
-		viewLi = view.find("li"),
-		item = $("#content .presentation3").find(".item"),
-		itemLi = item.find("li"),
-		len = itemLi.length,
-		index = 0,
-		timer = null;
-	autoPlay();
+	var view = $("#content .presentation3").find(".view");
+	var viewLi = view.find("li");
+	var item = $("#content .presentation3").find(".item");;
+	var itemLi = item.find("li");
+	var len = itemLi.length;
+	var index = 0;
+	var timer = null;
+	// 鼠标悬浮到tab区域时清除定时器
 	item.hover(function () {
 		clearInterval(timer);
 	}, autoPlay);
 	view.hover(function () {
 		clearInterval(timer);
 	}, autoPlay);
+	// 循环遍历所有的li项目移入时为它增加类名
 	itemLi.each(function () {
 		$(this).mouseenter(function () {
 			var i = $(this).index();
@@ -35,6 +38,8 @@
 			index = i;
 		})
 	});
+	// tab切换自动播放
+	autoPlay();
 
 	function autoPlay() {
 		timer = setInterval(function () {
