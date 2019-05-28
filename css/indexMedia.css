@@ -1,4 +1,4 @@
-/*PC端1200-1500*/
+/*大型桌面显示器:1200-1500*/
 @media all and (max-width: 1500px) and (min-width: 1200px) {
 
 	/*内容部分*/
@@ -32,7 +32,7 @@
 	}
 }
 
-/*中型设备900-1200*/
+/*桌面显示器:900-1200*/
 @media all and (max-width: 1200px) and (min-width: 900px) {
 
 	/*内容部分*/

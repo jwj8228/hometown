@@ -1,7 +1,7 @@
-/*1500-1200*/
+/*大型桌面显示器1500-1200*/
 @media all and (max-width: 1500px) and (min-width: 1200px) {}
 
-/*1200-900*/
+/*桌面显示器1200-900*/
 @media all and (max-width: 1200px) and (min-width: 900px) {
 
 	/*头部*/
@@ -56,7 +56,7 @@
 	}
 }
 
-/*900-600*/
+/*平板900-600*/
 @media all and (max-width: 900px) and (min-width: 600px) {
 
 	/*头部*/
@@ -86,7 +86,7 @@
 	}
 }
 
-/*小于600*/
+/*手机:小于600*/
 @media all and (max-width: 600px) {
 
 	/*头部*/
